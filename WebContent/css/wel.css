@@ -1,0 +1,183 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+body{
+	margin:0;
+}
+header{
+	background: black;
+	color:white;
+	padding: 8px 0px 6px 40px;
+	height: 48px;
+}
+header h1{
+	display: inline;
+	font-family: 'Oswald',sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	float:left;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+nav ul{
+	display: inline;
+	padding: 0px;
+	float: left;
+}
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	color:white;
+	float: left; 
+	margin-left: 12px ;
+}
+
+nav ul li a{
+	color:white;
+	text-decoration: none;
+	
+}
+
+#nav{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.homered{
+	background-color: #ff8000;
+	padding: 30px 10px 16px 10px;
+}
+.divider{
+	background-color: #ff8000;
+	height: 5px;
+}
+.homeblack:hover{
+	background-color:#ff8080 ;
+		padding: 30px 10px 16px 10px ;
+}
+.fwimage1{
+	background-image: url(gate.jpg);
+	width:100%;
+	height:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position:absolute;
+	margin: 0;
+	padding: 0;
+}
+.homesub{
+font-family: 'Raleway', sans-serif;
+margin:1% 2% ;
+padding: ;
+font-size: 30px;
+color:yellow;
+}
+.homedes{
+	font-family: 'Raleway', sans-serif;
+	margin:2%;
+	font-size: 50px;
+	color: white;
+	background-color:rgba(0,0,0,0.4);
+	display: inline-block; 
+}
+.buttonhome{
+	margin: 2% ;
+	background: yellow;
+	color:black;
+	border: none;
+	height:50px;
+	font-size: 1.4em;
+	padding: 0 1em;
+	cursor:pointer;
+	outline:none;
+	font-family: 'Raleway', sans-serif;;
+	font-weight: 900;
+}
+.aboutbox{
+	width:320px;
+	height:420px;
+	background: url(55.jpg);
+    position:absolute;
+	color: #fff;
+	top: 60%;
+	left: 80%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+.ava{
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+h1{
+	margin:0;
+	padding: 0 0 0px;
+	background: transparent;
+	text-align:center;
+	front-size:22px;
+	color: #400000;
+}
+
+h3{
+	margin:0;
+	padding: 0 0 20px;
+	text-align:center;
+	front-size:22px;
+}
+.aboutbox p{
+	margin:0;
+	padding:0;
+	font-weight: bold;
+}
+.votebox input{
+	width:100%;
+	margin-bottom:20px;
+}
+.aboutbox input[type="text"]{
+	border:none;
+	border-bottom: 1px solid #000000;
+	background:transparent;
+	outline: none;
+	height: 40px;
+	color:#000000;
+	font-size:16px;
+}
+.aboutbox select{
+		border:none;
+	border-bottom: 1px solid #000000;
+	background:transparent;
+	outline: none;
+	height: 40px;
+	color:#000000;
+	font-size:16px;
+	
+}
+.aboutbox input[type="submit"]{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size:18px;
+	border-radius:20px;
+}
+.aboutbox input[type="submit"]:hover{
+	cursor: pointer;
+	background:#ffc107;
+	color:#000;
+}
+.aboutbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: red;
+	
+}
+.aboutbox a:hover{
+	color: #000000;
+}
